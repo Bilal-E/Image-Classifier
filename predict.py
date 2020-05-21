@@ -6,15 +6,19 @@
 #   reads in an image and a checkpoint to predict image class and prints the probability with class name  
 #
 # EXPECTED USER INPUT:
-#   python predict.py --arch <vgg or densenet (since there is only one checkpoint file that this application generates based on the training model; choose the same model as of training to avoid mismatch)> 
+#   python predict.py --arch <vgg or densenet (since there is only one checkpoint file that this application generates 
+#   based on the training model; choose the same model as of training to avoid mismatch)> 
 #   --img_path <complete path of image to be predicted> --lr <learning rate used when training(float)> 
 #   --hidden_units <hidden units used when training(int)> --top_k <required no. of top K classes(int)>
 #   --print_k <1 prints a list of top_k; 0 prints only max probability> --json_file <complete path to category names file>
 #  
 # CHECKPOINT FILE:
-#   checkpoint file used here is 'model_checkpoint.pth', created by train.py <when tested in workspace 'model_checkpoint.pth' contained trained vgg16 model on flower dataset 'train', with a learning rate of 0.005, hidden units 1024>
+#   'model_checkpoint.pth', created by train.py 
+#   <when tested in workspace 'model_checkpoint.pth' contained trained vgg16 model on flower dataset 'train', 
+#    with a learning rate of 0.005, and hidden units 1024>
 #
-# EXAMPLE CALL TO PREDICT IMAGE USING ABOVE MENTIONED CHECKPOINT FILE: (default image path is set to one of 'rose' class image '/home/workspace/ImageClassifier/flowers/test/74/image_01191.jpg')
+# EXAMPLE CALL TO PREDICT IMAGE USING ABOVE MENTIONED CHECKPOINT FILE: (default image path is set to one of 'rose' class image 
+#   '/home/workspace/ImageClassifier/flowers/test/74/image_01191.jpg')
 #   python predict.py --arch vgg --lr 0.005 --hidden_units 1024 --top_k 3 --print_k 1
 # 
 
