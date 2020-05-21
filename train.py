@@ -15,7 +15,8 @@
 #
 #
 # EXAMPLE CALL:
-#   python train.py --train_dir '/home/workspace/ImageClassifier/flowers/train' --arch vgg --lr 0.005 --hidden_units 1024 --epochs 30 --gpu cuda
+#   python train.py --train_dir '/home/workspace/ImageClassifier/flowers/train' --arch vgg 
+#   --lr 0.005 --hidden_units 1024 --epochs 30 --gpu cuda
 # 
 
 
