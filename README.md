@@ -1,1 +1,1 @@
-# Image-Classifier-Project-AI-Programming-with-Python-Nanodegree
+# image-classifier-project-AI-programming-with-python-nanodegree
