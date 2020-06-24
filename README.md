@@ -1,16 +1,15 @@
 # Image Classifier Command Line Application 
 
 <br/>
-<br/>
 
 ## TRAINING (train.py)
 
 <br/>
 
 ### PURPOSE:
-####   train a dataset on a new network (models to be used: vgg or densenet); 
-####   output Training loss, Validation loss, Validation accuracy, and Best value accuracy
-####   saves checkpoint to file 'model_checkpoint.pth' 
+####   Train a dataset on a new network (models to be used: vgg or densenet); 
+####   Output Training loss, Validation loss, Validation accuracy, and Best value accuracy
+####   Saves checkpoint to file 'model_checkpoint.pth' 
 
 <br/>
 
@@ -32,7 +31,8 @@
 <br/>
 
 ### PURPOSE:
-####   Reads in an image and a checkpoint to predict image class and prints the probability with class name  
+#### Reads in an image and a checkpoint to predict image class
+#### Prints the top-k probability with class name  
 
 <br/>
 
